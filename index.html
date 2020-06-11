@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Devine</title>
+    <!-- This is Eric Meyers CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+    <!-- This one is your style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <a href="index.html"><span class="devine"> Devine</span>Designer</a>
+            </div>
+            <nav>
+                <div2 class="navbutton" id="clickme"><a href="#">About |</a></div2>
+                <div class="navbuttonhidden" id="clickmeagain"><a href="#">Home |</a></div>
+                <!-- Project Drop Down -->
+                <div class="navbutton"><a href="#"> Projects |</a>
+                    <div class="dropdown">
+                        <div class="navbutton2"><a href="#maynooth">Maynooth |</a>
+                            <div class="dropdown2">
+                                <img src="IMG/Web 1920 – 1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="navbutton2"><a href="#roarbikes">Roaring Bikes</a>
+                            <div class="dropdown3">
+                                <img src="IMG/Roaring Bikes.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbutton"><a href="#roarbikes"> Contact </a></div> 
+            </nav>
+        </header>
+
+        <main>
+            <div class="herobox">
+                <img src="IMG/MeAsABust-Crop.png" alt="">
+            </div>
+
+            <div class="herobox2" id="herobox2">
+                <h1>My name is Stephen P. Devine</h1>
+                <h1 class="rightabit">I'm a <span class="blue">UI/UX Designer</span> & <span class="red">Educator</span></h1>
+                <a name="maynooth"><h1 class="rightabitmore"><span class="green">Let's Spread Good Ideas,</span> One Website at a Time</h1></a>
+            </div>
+            <!-- About page change -->
+
+            <div class="herobox3" id="herobox3">
+                <h1 class="rightabitmore">About</h1>
+                <h3 class="rightabitmoreplusdown">Education</h3>
+                <p class="rightabitmore">Graduated from <b>San Diego State University</b>, where I studied <b>Computer Science</b>, <b>Economics</b>, and <b>Rhetoric</b> under the banner of Interdisciplinary Studies. This gave me exposure to both <b>design</b> <i>(visual composition, digital rhetoric)</i>   and <b>development</b> <i>(programming languages)</i>, that I built upon through self study.</p>
+                <h3 class="rightabitmoreplusdown">Previous (Job) Titles</h3>
+                <p class="rightabitmore">Cajon Valley Guest Teacher & Sea World Educator <br>This leads me to design for understanding.</p>
+                <!-- <h3 class="rightabitmoreplusdown">My Tool Box</h3>
+                <p class="rightabitmore">
+                    <b>Design: </b> Adobe XD | Photoshop | Illustrator <br>
+                    <b>Developement: </b> HTML | CSS | JQuery
+                </p> -->
+
+                <h3 class="rightabitmoreplusdown">Recommended Readings</h3>
+                <p class="rightabitmore"><b>The Design of Everyday Things</b> - Don Norman <br>
+                    <b>Don’t Make Me Think, Revisited</b> - Steve Krug
+                    </p>
+        </main> 
+
+        <article>
+        <div class="projectslide">
+
+            <div class="story">
+                <h1>Maynooth</h1>
+                <p class="fancy">A furniture website design</p>
+                <p class="starter">A project assigned by Daniel Scott’s class: <br> <b>User Experience Design Essentials - Adobe XD UI UX Design</b>.</p>
+                <br>
+                <p class="starter">A template drawing inspiration from habitat.co.uk and Ikea.com.</p>
+            </div>
+
+            <div class="project">
+                <a href="https://xd.adobe.com/view/e09b7e34-4b97-4234-4316-395a7026f841-96aa/"><img src="IMG/Web 1920 – 1.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="spacebetween">
+
+        </div>
+        </article>
+
+        <article>
+            <div class="projectslide">
+    
+                <div class="story">
+                    <h1>Roaring Bikes</h1>
+                    <p class="fancy">Translating design to code</p>
+                    <p class="starter">A project assigned by Daniel Scott’s class, <b>Responsive Web Design Essentials - HTML5 CSS3 Bootstrap</b>.</p>
+                <br>
+                    <p class="starter">I translated Daniel Scott’s design from an Adobe XD mockup to HTML and CSS. Features scale-able flex box and card classes. </p>
+                </div>
+    
+                <div class="project">
+                    <a href="Roar Bikes/index.html"><img src="IMG/Roaring Bikes.PNG" alt=""></a>
+                </div>
+            </div>
+    
+            <!-- <div class="spacebetween">
+                <a name="roarbikes"><p>-</p></a>
+                
+            </div> -->
+
+            <div class="contactme">
+                <a name="roarbikes"></a><h2>Contact Me</h2></a>
+                <br>
+                <p class="under"></p>
+                <br>
+                <p>
+                    <span class="h3">Location:</span> San Diego
+                    <span class="h3">  |  Email:</span> SPDevine24@gmail.com
+                    <span class="h3">  |  Linkedin:</span> <a href="https://www.linkedin.com/in/stephen-devine-072a5298/">Stephen P. Devine</a>
+                </p>
+            </div>
+
+            </article>
+            
+    </div>
+    <script  src="http://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

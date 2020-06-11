@@ -1,0 +1,268 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+.container {
+    width: 1024px;
+    min-height:400px;
+    margin-left: auto;
+    margin-right:auto;
+    /* background-color: red; */
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+main {
+    min-height: 100px;
+    display: flex;
+    line-height: 80px;
+    /* background-color: cyan; */
+}
+
+nav {
+    flex: 2;
+    text-align: right;
+}
+
+.brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+}
+
+.herobox2 {
+    text-align: left;
+    /* background-color: white; */
+    margin-left: -120px;
+    margin-top: 50px;
+    line-height: 100px;
+}
+
+.herobox3 {
+    text-align: left;
+    /* background-color: white; */
+    margin-left: -150px;
+    line-height: 24px;
+    display:none;
+    /* margin-top: 50px; */
+}
+
+.projectslide {
+    width: 1024px;
+    min-height: 500px;
+    background-color: #F5F5F5;
+    margin-top: -35px;
+    display: flex;
+    align-items: center;
+}
+
+.spacebetween {
+    width: 1024px;
+    min-height: 100px;
+    /* background-color: green; */
+}
+
+.story {
+    display: inline-block;
+    flex: 1;
+    /* background-color: orange; */
+    text-align: center;
+    margin: -100px 10px 10px 10px;
+}
+
+.contact {
+    display: inline-block;  
+    flex: 1;
+    text-align: center;
+    /* background-color: orange; */
+    margin: -200px 10px 10px 10px;
+}
+
+.project {
+    flex: 1;
+    text-align: center;
+    /* background-color: thistle; */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.navbutton {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.navbuttonhidden {
+    display: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+}
+    
+/* .aboutbutton {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    display: inline-block;
+} */
+
+.navbutton2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    display: inline-block;
+}
+
+.herobox img {
+    /* width:65%; */
+    width: 373.1px;
+}
+
+.project img{
+    width: 65%;
+    padding-right: 70px;
+}
+
+.rightabit {
+    margin-left: 100px;
+}
+
+.rightabitmore {
+    margin-left: 150px;
+}
+
+.rightabitmoreplusdown {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+.blue {
+    color:#4427A3;
+}
+
+.red {
+    color: #A32727;
+}
+
+.green {
+    color: rgb(16, 110, 16);
+}
+
+.fancy {
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.story, p h1 {
+    padding-left: 200px;
+    /* margin-top: -50px; */
+}
+
+.starter {
+    text-align: left;
+    line-height: 1rem;
+    padding-top: 10px;
+    /* text-indent: 1rem; */
+    /* padding-left: 20px; */
+}
+
+.devine {
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 8px;
+    padding: 0px 7px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+    margin-left: -35px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.navbutton2:hover .dropdown2{
+    display: block;
+}
+
+.dropdown2 img{
+    width: 35%;
+    padding-right: 70px;
+}
+
+.dropdown3 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.navbutton2:hover .dropdown3{
+    display: block;
+}
+
+.dropdown3 img{
+    width: 85%;
+    padding-right: 70px;
+}
+
+.contactme {
+        width: 1024px;
+        min-height: 100px;
+        margin:20px 0px 0px 250px;
+        /* background-color: green; */
+}
+
+.h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+}
+
+.under {
+    width: 200px;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+
+}
