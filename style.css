@@ -147,6 +147,10 @@ h2 {
     padding-right: 70px;
 }
 
+.project img:hover {
+opacity: .9;
+}
+
 .rightabit {
     margin-left: 100px;
 }
@@ -204,7 +208,7 @@ h2 {
     position: absolute;
     z-index: 1;
     padding-top: 10px;
-    margin-left: -35px;
+    margin-left: -95px;
     text-align: center;
 }
 
@@ -212,12 +216,31 @@ h2 {
     display: block;
 }
 
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.navbutton2:hover .dropdown1{
+    display: block;
+}
+
+.dropdown1 img{
+    width: 55%;
+    padding-right: 70px;
+}
+
 .dropdown2 {
     display: none;
     position: absolute;
     z-index: 1;
     padding-top: 10px;
-    margin-left: -30px;
+    margin-left: -60px;
     text-align: center;
 }
 
@@ -226,7 +249,7 @@ h2 {
 }
 
 .dropdown2 img{
-    width: 35%;
+    width: 85%;
     padding-right: 70px;
 }
 
@@ -235,6 +258,7 @@ h2 {
     position: absolute;
     z-index: 1;
     padding-top: 10px;
+    margin-left: -80px;
     text-align: center;
 }
 
@@ -243,7 +267,7 @@ h2 {
 }
 
 .dropdown3 img{
-    width: 85%;
+    width: 130%;
     padding-right: 70px;
 }
 
